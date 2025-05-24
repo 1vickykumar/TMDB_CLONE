@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.smain{
+ width: 100%;
+ background-color: rgb(255,255,255);
+ padding: 10px;
+ display: flex;
+ justify-content: center;
+ 
+}
+.smid{
+    width: 90%;
+    background-color: rgb(255,255,255);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.smid1{
+    width: 20%;
+    /* padding: 10px; */
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-bottom: 20px;
+    background-color: rgb(255,255,255);
+    box-shadow: 0.1px 0.1px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin:10px;
+
+}
+.smid2{
+
+    width: 80%;
+    background-color:rgb(255,255,255);
+    margin: 10px
+
+}
+
+.smid2 h2{
+
+ padding-left: 10px;
+
+}
+.smid2 p{
+padding: 15px;
+
+
+}
+.smid2 input{
+    padding: 10px ;
+    width: 100%;
+    border: 1px solid lightgray;
+    margin: 0px 5px;
+    border-radius: 4px;
+}
+.smid2 button{
+    margin-left: 6px;
+    padding: 10px;
+  
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+.sideupper{
+    width: 100%;
+    background-color: rgb(1,180,228);
+    padding: 20px;
+    /* padding-top: 0px; */
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.sidesection{
+    list-style: none;
+    /* padding: 10px; */
+}
+.sidesection li{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.smid2 a{
+    text-decoration: none;
+    color: rgb(189,236,248);
+    padding-left: 10px;
+}

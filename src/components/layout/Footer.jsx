@@ -10,9 +10,10 @@ export default function Footer (){
             <button >JOIN THE COMMUNITY</button>
             </div>
 
+
             <div className="fmid2">
                 <div className="div1">
-                    <h3 className="h3">The Basics</h3>
+                    <h2 className="h3">The Basics</h2>
                     <ul >
                         <li className="fli"> <a href="#" className="fli">About TMDB</a></li>
                         <li className="fli" ><a href="#"className="fli">Contact Us</a></li>
@@ -23,7 +24,7 @@ export default function Footer (){
                     </ul>
                 </div>
                 <div className="div2">
-                    <h3 className="h3">Get Involved</h3>
+                    <h2 className="h3">Get Involved</h2>
                     <ul>
                         <li className="fli"><a href="#" className="fli">Contribution Bible</a></li>
                         <li className="fli"><a href="#" className="fli">Add New Movie</a></li>
@@ -33,7 +34,7 @@ export default function Footer (){
                     </ul>
                 </div>
                 <div className="div3">
-                    <h3 className="h3">Community</h3>
+                    <h2 className="h3">Community</h2>
                     <ul>
                         <li className="fli"><a href="#"className="fli">Guidelines</a></li>
                         <li className="fli"><a href="#"className="fli">Discussions</a></li>
@@ -41,7 +42,7 @@ export default function Footer (){
                     </ul>
                 </div>
                 <div className="div4">
-                    <h3 className="h3">Legal</h3>
+                    <h2 className="h3">Legal</h2>
                     <ul>
                         <li className="fli"><a href="#"className="fli">Term of Use</a></li>
                         <li className="fli"><a href="#" className="fli">API Term of Use</a></li>
