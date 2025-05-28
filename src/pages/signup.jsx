@@ -21,8 +21,6 @@ export default function Signup() {
                             <li><span><TiTick size={"20px"} /></span>Take part in movie and TV discussions</li>
                             <li><span ><TiTick size={"20px"} /></span>Contribute to, and improve the information in our database</li>
                             
-
-                    
                         </ul>
                     </div>
 
@@ -36,12 +34,12 @@ export default function Signup() {
                             <input type="text" name="ussename" ></input>
 
                             <p>Password (4 characters minimum)</p>
-                            <input type="text" name="ussename" ></input>
+                            <input type="password" name="password" ></input>
 
                              <p> confirm Password </p>
-                            <input type="text" name="ussename" ></input>
+                            <input type="password" name="confirm password" ></input>
                             <p>Email</p>
-                            <input type="text" name="ussename" ></input>
+                            <input type="email" name="email" ></input>
 
                           </form>
                           <p>By clicking the "Sign up" button below, I certify that I have read and agree to the TMDB terms of use and privacy policy.</p>

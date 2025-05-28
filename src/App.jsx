@@ -1,23 +1,27 @@
-
-import Footer from './components/layout/Footer'
-import Header from './components/layout/Header'
-
-import Signup from './pages/signup'
-
-import MovieCard from './components/layout/MovieCard'
-
+import Footer from "./components/layout/Footer";
+import Header from "./components/layout/header";
+import Signup from "./pages/signup";
+import MovieCard from "./components/layout/MovieCard";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import Landing from "./pages/Landing";
 function App() {
   return (
     <>
-      <Header/>
-
-      <Signup/>
-
-       <MovieCard/>
-
-      <Footer/>
+      <HashRouter>
+      <Header />
+      
+        <Routes>
+          <Route path="/" element={<Landing/>}></Route>
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/login" element={<Login/>}/>
+        </Routes>
+      </HashRouter>
+      <MovieCard/>
+      
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.searchmain{
+    width: 100%;
+    /* padding: 10px; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+
+}
+.searchmid{
+    width: 80%;
+    /* padding: 10px; */
+    /* background-color: green; */
+    display: flex;
+    justify-content: start;
+    
+
+}
+.d2 {
+    width: 100%;
+    /* background-color: blue; */
+    padding: 10px;
+}
+.d1{
+    /* background-color: red; */
+    /* width: 2%; */
+    padding: 10px;
+}
+.d2 input{
+width: 100%;
+}
+input::placeholder {
+  color: gray;
+  font-style: italic;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+}
+
+.searchmain2{
+    width: 100%;
+    /* padding: 10px; */
+    background-color:lightgray;
+    display: flex;
+    justify-content: center;
+
+}
+.searchmid2{
+    width: 80%;
+    /* padding: 10px; */
+    background-color: lightgrey;
+    padding-bottom: 50px;
+    
+    
+    
+}
+.searchmid2 h1{
+    font-size: 48px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+
+}
+    .searchmid2 h2{
+        font-size: 24px;
+        font-family: sans-serif;
+        color: white;
+        margin-top: 0%;
+        display: block;
+        margin-bottom: 50px;
+    }
+.searchmid2 form{
+    position: relative;
+    width: 100%;
+    
+}
+.searchmid2 input{
+    width: 100%;
+    padding: 10px 20px ; 
+    
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.searchmid2 button{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+     transform: translateY(-50%);
+     padding: 10px 25px;
+  background-color: rgb(23,204,185);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+
+}

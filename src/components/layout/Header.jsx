@@ -1,6 +1,7 @@
 import { FaPlus, } from "react-icons/fa";
 import { IoMdSearch } from "react-icons/io";
 import "./Header.css"
+import { Link } from "react-router-dom";
 export default function Header() {
 
     return (
@@ -58,8 +59,8 @@ export default function Header() {
                         <ul className="mid2ul">
                             <span className="li2"><FaPlus /></span>
                             <li><div className="li2">EN</div></li>
-                            <li className="li2">Login</li>
-                            <li className="li2">Join TMDB</li>
+                            <li> <Link to="/login" className="li2">Login</Link></li>
+                            <li><Link to="/signup" className="li2" >Join TMDB</Link></li>
                             <span ><IoMdSearch size={28} color={"rgb(1,180,228)"} /></span>
                         </ul>
                     </div>
