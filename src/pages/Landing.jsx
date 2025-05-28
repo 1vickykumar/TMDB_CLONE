@@ -1,4 +1,4 @@
-import "./Landing.css"
+import "./landing.css"
 import { IoMdSearch } from "react-icons/io";
 function Landing() {
     return (
