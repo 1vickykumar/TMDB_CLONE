@@ -1,5 +1,7 @@
 import React from "react";
+
 import styles from'../css/MovieCard.module.css'
+
 function MovieCard(props) {
 
   return (
@@ -9,6 +11,7 @@ function MovieCard(props) {
           src="https://media.themoviedb.org/t/p/w220_and_h330_face/4iWjGghUj2uyHo2Hyw8NFBvsNGm.jpg"
           alt="Movie Poster"
         />
+
       <div className={styles.canvas} style={{'--rating': 80}}>
         60%
       </div>
