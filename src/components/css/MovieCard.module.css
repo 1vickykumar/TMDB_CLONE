@@ -1,6 +1,7 @@
 .container {
-  width: 150px;
+  min-width: 150px;
   font-family: sans-serif;
+  margin-left: 20px;
 }
 .card_image{ position:relative;}
 .card_image img{
@@ -32,5 +33,5 @@
   border: 2px solid #222; /* fallback visual border */
 }
 .card_caption {padding: 26px 10px 0px 10px; text-align: center;}
-.card_caption h2 {font-size:16px; margin: 5px 0 0 0}
+.card_caption h2 {font-size:16px; margin: 5px 0 0 0; overflow: hidden;}
 .card_caption p {font-size: 14px; color:#777; margin:4px 0 0 0;}

@@ -5,6 +5,7 @@ import MovieCard from "./components/MovieCard";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Landing from "./pages/Landing";
+import './App.css';
 function App() {
   return (
     <>
@@ -16,7 +17,7 @@ function App() {
           <Route path="/login" element={<Login/>}/>
         </Routes>
       </HashRouter>
-      <MovieCard/>
+      {/* <MovieCard/> */}
       <Footer />
     </>
   );

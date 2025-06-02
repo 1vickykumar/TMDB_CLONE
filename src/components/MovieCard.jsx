@@ -1,24 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import styles from'./css/MovieCard.module.css'
 
 function MovieCard(props) {
+  // useEffect(()=>{
+  //   console.log(props) 
+  // })
 
   return (
     <div className={styles.container}>
       <div className={styles.card_image}>
         <img
-          src="https://media.themoviedb.org/t/p/w220_and_h330_face/4iWjGghUj2uyHo2Hyw8NFBvsNGm.jpg"
+        src={`https://media.themoviedb.org/t/p/w220_and_h330_face${props.data.poster_path}`}
           alt="Movie Poster"
         />
 
-      <div className={styles.canvas} style={{'--rating': 80}}>
-        60%
+      <div className={styles.canvas} style={{'--rating': Math.trunc(props.data.vote_average)*10}}>
+        {Math.trunc(props.data.vote_average)*10}
       </div>
       </div>
       <div className={styles.card_caption}>
-        <h2><a href='javascript:void(0)'>Movie_Name</a></h2>
-        <p>Release_Date</p>
+        <h2><a href='javascript:void(0)'>{props.data.title? props.data.title: props.data.name}</a></h2>
+        <p>{props.data.release_date? props.data.release_date : props.data.first_air_date}</p>
       </div>
     </div>
   );

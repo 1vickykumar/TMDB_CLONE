@@ -1,0 +1,30 @@
+.btn-container{
+    padding: 0 40 0 40;
+    display: flex;
+}
+.btn-container h2{
+    margin-right: 20px;
+}
+.btn-container .toggle_group{
+    font-size: 16px;
+    border: solid 2px black;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.btn-container .toggle_group input{
+    align-items: center;
+    align-content: center;
+    padding: 4px 20px;
+    text-align: bottom;
+     /* border-radius: 16px; */
+     cursor: pointer;
+}
+.btn-container .toggle_group .active{
+    align-items: center;
+    align-content: center;
+    padding: 4px 20px;
+    text-align: bottom;
+    color:#1ed5a9;
+    background-color: #032541;
+     border-radius: 16px;
+}
