@@ -126,3 +126,17 @@ input::placeholder {
 .movieCard:first{
     margin-left: 50px;
 }
+.trailer_background{
+    /* border-radius: 10px; */
+    min-height:max-content;
+    display: flex;
+    flex-direction: row;
+    /* overflow: scroll; */
+    margin: 20px 0 20px 0;
+    background: no-repeat;
+    background-position: bottom;
+    /* background-image: url(../assets/image/trendingBG.svg); */
+}
+.trailer_background > div {
+    margin-left: 20px
+}

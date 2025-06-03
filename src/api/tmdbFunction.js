@@ -11,4 +11,15 @@ export const GetTrendingOnDay = () => {
   };
   return  fetchApi({url, options})
 };
+export const GetTrendingWeek = () => {
+  const url = "https://api.themoviedb.org/3/trending/all/week?language=en-US";
+  const options = {
+    method: "GET",
+    headers: {
+      accept: "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+  };
+  return  fetchApi({url, options})
+};
 

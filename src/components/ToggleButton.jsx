@@ -7,6 +7,7 @@ const ToggleButton = (props) => {
     const handleClick = (e) => {
         console.log('buttonClicked:', e);
         setActive(e.target.id);
+        props.getData(e.target.value)
     }
     return (
         <div className="btn-container">

@@ -3,9 +3,9 @@ import React, { useEffect } from "react";
 import styles from'./css/MovieCard.module.css'
 
 function MovieCard(props) {
-  // useEffect(()=>{
-  //   console.log(props) 
-  // })
+  useEffect(()=>{
+    console.log(props) 
+  })
 
   return (
     <div className={styles.container}>
@@ -15,8 +15,11 @@ function MovieCard(props) {
           alt="Movie Poster"
         />
 
-      <div className={styles.canvas} style={{'--rating': Math.trunc(props.data.vote_average)*10}}>
-        {Math.trunc(props.data.vote_average)*10}
+      <div className={styles.canvas} style={{'--rating': parseInt(props.data.vote_average*10)}}>
+        <div className={styles.canvasTop}>
+            {parseInt(props.data.vote_average*10)}
+
+        </div>
       </div>
       </div>
       <div className={styles.card_caption}>
